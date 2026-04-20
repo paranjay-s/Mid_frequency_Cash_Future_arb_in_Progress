@@ -1,0 +1,36 @@
+{
+    "timestamp": "2026-04-20T11:03:25.827507",
+    "r": 0.050978244764629456,
+    "assets": {
+        "HDFCBANK": {
+            "D": 0.0,
+            "ex_date": null,
+            "condition": "B",
+            "C_total": 0.8688
+        },
+        "RELIANCE": {
+            "D": 0.0,
+            "ex_date": null,
+            "condition": "B",
+            "C_total": 1.2372
+        },
+        "ICICIBANK": {
+            "D": 0.0,
+            "ex_date": null,
+            "condition": "B",
+            "C_total": 1.1719
+        },
+        "INFY": {
+            "D": 0.0,
+            "ex_date": null,
+            "condition": "B",
+            "C_total": 1.2556
+        },
+        "TCS": {
+            "D": 0.0,
+            "ex_date": null,
+            "condition": "B",
+            "C_total": 2.3439
+        }
+    }
+}

@@ -1,0 +1,20 @@
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MFT Project Specifics
+data_lake/
+*.parquet
+*.jsonl
+latest_orderbooks.json

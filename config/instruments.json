@@ -1,0 +1,37 @@
+{
+    "HDFCBANK": {
+        "spot_ref_id": 71496,
+        "futures_ref_id": 1213562,
+        "lot_size": 550,
+        "tick_size": 5,
+        "expiry": 20260428
+    },
+    "RELIANCE": {
+        "spot_ref_id": 71878,
+        "futures_ref_id": 1227288,
+        "lot_size": 500,
+        "tick_size": 10,
+        "expiry": 20260428
+    },
+    "ICICIBANK": {
+        "spot_ref_id": 72329,
+        "futures_ref_id": 1214786,
+        "lot_size": 700,
+        "tick_size": 10,
+        "expiry": 20260428
+    },
+    "INFY": {
+        "spot_ref_id": 71563,
+        "futures_ref_id": 1216317,
+        "lot_size": 400,
+        "tick_size": 10,
+        "expiry": 20260428
+    },
+    "TCS": {
+        "spot_ref_id": 73009,
+        "futures_ref_id": 1230832,
+        "lot_size": 175,
+        "tick_size": 10,
+        "expiry": 20260428
+    }
+}
