@@ -1,9 +1,11 @@
-# Mid_frequency_Cash_Future_arb_in_Progress
+# Mid-Frequency Cash-Futures Arbitrage (In Progress)
 
-Currently working on it 
+> **Status:** Currently working on it.
+> **Current median Latency:** 0.25 ms
 
-Current median Latency = 0.25 ms 
+## Current System Architecture
 
+```text
 📦 MFT_CashFutures_Arbitrage
 ├── 📁 config
 │   ├── 📄 instruments.json
@@ -45,7 +47,7 @@ Current median Latency = 0.25 ms
 └── 📄 main.py                          # Boots the 5 engines, web backend, and telemetry
 
 
-Offline ML workflow
+
 ☁️ MFT_Cloud_Research
 ├── 📁 data_lake_archive               # Synced daily from your laptop
 │   ├── 📁 2026-04-20
@@ -61,20 +63,4 @@ Offline ML workflow
     ├── 📄 01_Data_Alignment.ipynb     # Merges L2, Math, and Exec logs; runs Proxies
     ├── 📄 02_Feature_Engineering.ipynb# Generates X features and 21 Y targets
     ├── 📄 03_Model_Training.ipynb     # Hyperparameter tuning, MLflow logging
-    └── 📄 04_Alpha_Tracking.ipynb     # Evaluates IC decay and backtest performance☁️ MFT_Cloud_Research
-├── 📁 data_lake_archive               # Synced daily from your laptop
-│   ├── 📁 2026-04-20
-│   └── 📁 2026-04-21
-│
-├── 📁 mlflow_registry                 # MLflow SQLite DB and model artifacts
-│
-├── 📁 production_models               # The Bridge folder
-│   ├── 📄 gatekeeper_latest.onnx      # The compiled ML model
-│   └── 📄 feature_scalers.json        # MinMax/Standard scalers for live inputs
-│
-└── 📁 research_notebooks              # The automated Colab pipeline
-    ├── 📄 01_Data_Alignment.ipynb     # Merges L2, Math, and Exec logs; runs Proxies
-    ├── 📄 02_Feature_Engineering.ipynb# Generates X features and 21 Y targets
-    ├── 📄 03_Model_Training.ipynb     # Hyperparameter tuning, MLflow logging
     └── 📄 04_Alpha_Tracking.ipynb     # Evaluates IC decay and backtest performance
-    
